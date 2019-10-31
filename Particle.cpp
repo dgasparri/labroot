@@ -1,5 +1,5 @@
 #include "Particle.h"
-
+/*
 Particle::Particle(char* fName, double fPx, double fPy, double fPz):
     fName(fName), fPx(fPx), fPy(fPy), fPz(fPz) {
 
@@ -9,7 +9,7 @@ Particle::Particle(char* fName, double fPx, double fPy, double fPz):
         if(-1 == fIParticle) {
             std::cout << "Particle " << fName << " not found" << std::endl;
         }
-        */
+        * /
     }
 
 int Particle::getParticleIndex() {
@@ -26,7 +26,7 @@ int Particle::setParticleType(int fIndex) {
 }
 
 int Particle::setParticleType(char *fNameC) {
-    int fIParticle = Particle::FindParticle(fNameC);
+    int fIParticle = FindParticle(fNameC);
     if (-1 == fIParticle) {
         std::cout << "Particle Type " << fNameC << " not in list"<<std::endl;
     }
@@ -81,46 +81,54 @@ double Particle::InvMass(Particle& p) const {
     return sqrt(E_sqr - p_sqr);
 
 }
+*/
 
+//static
 void Particle::InitializeParticleType() {
     fNumParticleTypes = 0;
+
 }
 
+
+//static
 int Particle::AddParticleType(char* fNameC, double fMassC, int fChargeC, double fWidthC) {
     
-    if(Particle::fNumParticleTypes >= Particle::fMaxNumParticleTypes) {
+    if(fNumParticleTypes >= fMaxNumParticleTypes) {
         std::cout<<"Max number of possible particle types reached"<<std::endl;
         return -1;
     }
-    int pIndex = Particle::FindParticle(fNameC);
+
+    int pIndex = FindParticle(fNameC);
     if (-1 == pIndex) {
         if (fWidthC) {
-            Particle::fParticleTypes[Particle::fNumParticleTypes] = 
+            fParticleTypes[fNumParticleTypes] = 
                 new ResonanceType(fNameC, fMassC, fChargeC, fWidthC);
         } else {
-            Particle::fParticleTypes[Particle::fNumParticleTypes] = 
+            fParticleTypes[fNumParticleTypes] = 
                 new ParticleType(fNameC, fMassC, fChargeC);
         }
-        return Particle::fNumParticleTypes++;
+        return fNumParticleTypes++;
     } else {
         std::cout<<"Particle " << fNameC << " already in list"<<std::endl;
         return pIndex;
     }
 }
 
+/*
+//static
 void Particle::PrintParticleTypes() {
-    std::cout<<"Printng " << Particle::fNumParticleTypes << " particle types:"<<std::endl;
-    for(int x = 0; x<Particle::fNumParticleTypes; x++) {
+    std::cout<<"Printng " << fNumParticleTypes << " particle types:"<<std::endl;
+    for(int x = 0; x<fNumParticleTypes; x++) {
         fParticleTypes[x]->Print();
         std::cout<<std::endl;
     }
 }
 
-
+//static
 int Particle::FindParticle(char *pName) {
     int x;
-    for(x=0; x<Particle::fNumParticleTypes; x++) {
-        const char* const itemName = Particle::fParticleTypes[x]->getFName();
+    for(x=0; x<fNumParticleTypes; x++) {
+        const char* const itemName = fParticleTypes[x]->getFName();
         if (0 == strcmp(pName, itemName)) {
             std::cout<<"Found particle: "<<itemName << " (index "<<x<<")"<<std::endl;
             return x;
@@ -129,3 +137,4 @@ int Particle::FindParticle(char *pName) {
     //If not found, returns NULL
     return NULL;
 }
+*/

@@ -11,8 +11,9 @@ int main() {
         list[x]->Print();
         std::cout<<std::endl;
     }
+    Particle::InitializeParticleType();
     Particle::AddParticleType("a1", 0.74f, 3);
-    Particle::AddParticleType("a2", 0.74f, 4, 3.14f);
+ /*   Particle::AddParticleType("a2", 0.74f, 4, 3.14f);
     Particle::AddParticleType("a3", 0.74f, 4, 3.14f);
     Particle::AddParticleType("a4", 0.74f, 3);
     Particle::AddParticleType("a5", 0.74f, 4, 3.14f);
@@ -27,9 +28,9 @@ int main() {
     Particle::AddParticleType("a6", 0.74f, 4, 3.14f);
 
     Particle::PrintParticleTypes();
-    
+
     Particle particle("a7", 0.4, 0.6, 0.7);
 
- 
+ */
     std::cin.get();
 }
