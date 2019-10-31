@@ -10,5 +10,5 @@ public:
     const char* const getFName() const;
     double getFMass() const;
     double getFCharge() const;
-    void Print() const;
+    virtual void Print() const;
 };

@@ -32,7 +32,7 @@ int Particle::setParticleType(int fIndex) {
 }
 
 int Particle::setParticleType(char *fNameC) {
-    int fIParticle = FindParticle(fNameC);
+    fIParticle = FindParticle(fNameC);
     if (-1 == fIParticle) {
         std::cout << "Particle Type " << fNameC << " not in list"<<std::endl;
     }
@@ -89,11 +89,6 @@ double Particle::InvMass(Particle& p) const {
 }
 
 
-//static
-void Particle::InitializeParticleType() {
-    fNumParticleTypes = 0;
-
-}
 
 
 //static
@@ -140,6 +135,6 @@ int Particle::FindParticle(char *pName) {
             return x;
         }
     }
-    //If not found, returns NULL
-    return NULL;
+    //If not found, returns -1
+    return -1;
 }
