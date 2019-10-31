@@ -8,14 +8,7 @@ ParticleType* Particle::fParticleTypes[10];
 
 Particle::Particle(char* fName, double fPx, double fPy, double fPz):
     fName(fName), fPx(fPx), fPy(fPy), fPz(fPz) {
-
         setParticleType(fName);
-        /*
-        fIParticle = Particle::FindParticle(fName);
-        if(-1 == fIParticle) {
-            std::cout << "Particle " << fName << " not found" << std::endl;
-        }
-        */
     }
 
 int Particle::getParticleIndex() {
@@ -34,7 +27,7 @@ int Particle::setParticleType(int fIndex) {
 int Particle::setParticleType(char *fNameC) {
     fIParticle = FindParticle(fNameC);
     if (-1 == fIParticle) {
-        std::cout << "Particle Type " << fNameC << " not in list"<<std::endl;
+        std::cout << "Particle Type with name " << fNameC << " not in list"<<std::endl;
     }
     return fIParticle;
 }
@@ -59,7 +52,7 @@ double Particle::getPz() const {
 }
 
 double Particle::getMass() const {
-    return fParticleTypes[fIParticle]->getFMass();
+    return fParticleTypes[fIParticle]->getMass();
 }
 
 void Particle::setP(double px, double py, double pz) {
@@ -129,7 +122,7 @@ void Particle::PrintParticleTypes() {
 int Particle::FindParticle(char *pName) {
     int x;
     for(x=0; x<fNumParticleTypes; x++) {
-        const char* const itemName = fParticleTypes[x]->getFName();
+        const char* const itemName = fParticleTypes[x]->getName();
         if (0 == strcmp(pName, itemName)) {
             std::cout<<"Found particle: "<<itemName << " (index "<<x<<")"<<std::endl;
             return x;

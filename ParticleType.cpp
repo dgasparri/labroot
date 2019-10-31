@@ -1,14 +1,19 @@
 #include "ParticleType.h"
 
-const char* const ParticleType::getFName() const {
+const char* const ParticleType::getName() const {
     return fName;
 }
-double ParticleType::getFMass() const {
+double ParticleType::getMass() const {
     return fMass;
 }
-double ParticleType::getFCharge() const {
+double ParticleType::getCharge() const {
     return fCharge;
 }
+
+double ParticleType::getWidth() const {
+    return 0.0;
+};
+
 void ParticleType::Print() const {
     std::cout << "Particle Name: " << fName << std::endl
                 << "Mass: " << fMass << std::endl

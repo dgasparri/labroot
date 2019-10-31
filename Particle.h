@@ -19,7 +19,6 @@ public:
     double InvMass(Particle& p) const;
 
     static int AddParticleType(char* fNameC, double fMassC, int fChargeC, double fWidthC = 0);
-
     static void PrintParticleTypes();
 
 private:
