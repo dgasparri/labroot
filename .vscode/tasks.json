@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "LabRoot 1",
+        "type": "shell",
+        "command": "cl.exe",
+        "args": ["/EHsc", "/Zi", "/Fe:", "${workspaceFolder}/bin/labroot.exe", "labroot.cpp", "ParticleType.cpp", "ResonanceType.cpp", "Particle.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always"
+        },
+        "problemMatcher": "$msCompile"
+      }
+    ]
+  }
