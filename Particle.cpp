@@ -1,5 +1,11 @@
 #include "Particle.h"
-/*
+
+const int Particle::fMaxNumParticleTypes = 10;
+int Particle::fNumParticleTypes = 0;
+ParticleType* Particle::fParticleTypes[10];
+
+
+
 Particle::Particle(char* fName, double fPx, double fPy, double fPz):
     fName(fName), fPx(fPx), fPy(fPy), fPz(fPz) {
 
@@ -9,7 +15,7 @@ Particle::Particle(char* fName, double fPx, double fPy, double fPz):
         if(-1 == fIParticle) {
             std::cout << "Particle " << fName << " not found" << std::endl;
         }
-        * /
+        */
     }
 
 int Particle::getParticleIndex() {
@@ -81,7 +87,7 @@ double Particle::InvMass(Particle& p) const {
     return sqrt(E_sqr - p_sqr);
 
 }
-*/
+
 
 //static
 void Particle::InitializeParticleType() {
@@ -114,7 +120,7 @@ int Particle::AddParticleType(char* fNameC, double fMassC, int fChargeC, double 
     }
 }
 
-/*
+
 //static
 void Particle::PrintParticleTypes() {
     std::cout<<"Printng " << fNumParticleTypes << " particle types:"<<std::endl;
@@ -137,4 +143,3 @@ int Particle::FindParticle(char *pName) {
     //If not found, returns NULL
     return NULL;
 }
-*/

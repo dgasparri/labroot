@@ -11,7 +11,7 @@ int main() {
         list[x]->Print();
         std::cout<<std::endl;
     }
-    Particle::InitializeParticleType();
+    // Particle::InitializeParticleType();
     Particle::AddParticleType("a1", 0.74f, 3);
  /*   Particle::AddParticleType("a2", 0.74f, 4, 3.14f);
     Particle::AddParticleType("a3", 0.74f, 4, 3.14f);
