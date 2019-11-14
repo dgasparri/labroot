@@ -1,0 +1,6 @@
+std::cout<<gSystem->pwd();
+gSystem->cd("/Users/dmg/C++/repos/labroot1");
+.L ParticleType.cpp
+.L ResonanceType.cpp
+.L Particle.cpp
+.L labroot.cpp

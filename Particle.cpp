@@ -187,6 +187,7 @@ int Particle::FindParticle(const char *pName) {
 
 int Particle::decay2Body(Particle &dau1,Particle &dau2) const {
     double massMot = getMass();
+    std::cout<<"Mass: "<<massMot<<std::endl;
 
     if(massMot == 0.0){
         printf("Decayment cannot be preformed if mass is zero\n");
@@ -196,7 +197,9 @@ int Particle::decay2Body(Particle &dau1,Particle &dau2) const {
 
     double massDau1 = dau1.getMass();
     double massDau2 = dau2.getMass();
-
+    std::cout<<"Masses: "<<massDau1<<", "<<massDau2<<std::endl;
+    std::cout<<"Particle fIparticle: "<<fIParticle<<std::endl;
+    return 1;
     if(-1 < fIParticle){ // add width effect
 
         // gaussian random numbers
