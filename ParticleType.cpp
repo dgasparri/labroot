@@ -20,7 +20,7 @@ void ParticleType::Print() const {
                 << "Charge: " << fCharge << std::endl;
 }
 
-ParticleType::ParticleType(char* fName, double fMass, int fCharge): 
+ParticleType::ParticleType(const char* fName, double fMass, int fCharge): 
     fName(fName), fMass(fMass), fCharge(fCharge) {
 
 }

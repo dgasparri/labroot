@@ -7,5 +7,5 @@ class ResonanceType : public ParticleType {
 public:
     double getWidth() const;
     void Print() const;
-    ResonanceType(char* fName, double fMass, int fCharge, double fWidth);
+    ResonanceType(const char* fName, double fMass, int fCharge, double fWidth);
 };

@@ -6,7 +6,7 @@ class ParticleType {
     const double fMass;
     const int fCharge;
 public:
-    ParticleType(char* fName, double fMass, int fCharge);
+    ParticleType(const char* fName, double fMass, int fCharge);
     const char* const getName() const;
     double getMass() const;
     double getCharge() const;

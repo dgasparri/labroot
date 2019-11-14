@@ -1,0 +1,443 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.3.6
+** Copyright (c) 2019 Microsoft Corporation
+**********************************************************************
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools>cd \Users\dmg\C++
+
+C:\Users\dmg\C++>cd repos\labroot1
+
+C:\Users\dmg\C++\repos\labroot1>dir \root_v6.18.04
+ Il volume nell'unità C non ha etichetta.
+ 
+04/11/2019  09:54    <DIR>          .
+04/11/2019  09:54    <DIR>          ..
+30/10/2019  12:54    <DIR>          bin
+30/10/2019  12:53    <DIR>          cmake
+30/10/2019  12:53    <DIR>          config
+30/10/2019  12:53    <DIR>          emacs
+30/10/2019  12:53    <DIR>          etc
+30/10/2019  13:15             5.945 example.root
+30/10/2019  12:53    <DIR>          fonts
+30/10/2019  12:53    <DIR>          geom
+30/10/2019  12:53    <DIR>          icons
+30/10/2019  12:54    <DIR>          include
+30/10/2019  12:53    <DIR>          js
+30/10/2019  12:54    <DIR>          lib
+11/09/2019  14:36               847 LICENSE
+30/10/2019  12:53    <DIR>          macros
+30/10/2019  12:53    <DIR>          man
+30/10/2019  12:53    <DIR>          README
+30/10/2019  12:54    <DIR>          tutorials
+30/10/2019  12:54           123.645 Uninstall.exe
+               3 File        130.437 byte
+              17 Directory  153.580.072.960 byte disponibili
+
+C:\Users\dmg\C++\repos\labroot1>dir \root_v6.18.04\bin
+ Il volume nell'unità C non ha etichetta.
+
+
+ Directory di C:\root_v6.18.04\bin
+
+30/10/2019  12:54    <DIR>          .
+30/10/2019  12:54    <DIR>          ..
+11/09/2019  19:03            29.696 bindexplib.exe
+11/09/2019  14:36            53.026 cmdLineUtils.py
+11/09/2019  19:40            52.413 cmdLineUtils.pyc
+11/09/2019  19:40            52.413 cmdLineUtils.pyo
+08/05/2019  08:13           249.904 concrt140.dll
+11/09/2019  14:36             8.586 cppyy.py
+11/09/2019  19:40            12.734 cppyy.pyc
+11/09/2019  19:40            12.734 cppyy.pyo
+11/09/2019  18:36           550.400 gdk-1.3.dll
+11/09/2019  19:20             9.728 genreflex.exe
+11/09/2019  18:35           484.864 glib-1.3.dll
+11/09/2019  19:28            47.104 hadd.exe
+11/09/2019  18:35           955.392 iconv-1.3.dll
+30/10/2019  12:53    <DIR>          JsMVA
+30/10/2019  12:53    <DIR>          JupyROOT
+11/09/2019  19:27         1.106.944 libASImage.dll
+11/09/2019  19:27               171 libASImage.rootmap
+11/09/2019  19:30           135.680 libASImageGui.dll
+11/09/2019  19:30               102 libASImageGui.rootmap
+11/09/2019  19:30               748 libASImageGui_rdict.pcm
+11/09/2019  19:27               736 libASImage_rdict.pcm
+11/09/2019  19:20        34.970.624 libCling.dll
+11/09/2019  19:18            22.528 libcomplexDict.dll
+11/09/2019  19:17               345 libcomplexDict.rootmap
+11/09/2019  19:18         2.792.960 libCore.dll
+11/09/2019  19:18            17.924 libCore.rootmap
+11/09/2019  19:18            50.176 libdequeDict.dll
+11/09/2019  19:17               425 libdequeDict.rootmap
+11/09/2019  19:28           187.904 libEG.dll
+11/09/2019  19:28               434 libEG.rootmap
+11/09/2019  19:28             5.809 libEG_rdict.pcm
+11/09/2019  19:37         2.019.328 libEve.dll
+11/09/2019  19:34             5.408 libEve1.rootmap
+11/09/2019  19:34            44.371 libEve1_rdict.pcm
+11/09/2019  19:34             3.900 libEve2.rootmap
+11/09/2019  19:34            52.192 libEve2_rdict.pcm
+11/09/2019  19:23            60.416 libFFTW.dll
+11/09/2019  19:23               219 libFFTW.rootmap
+11/09/2019  19:23             2.406 libFFTW_rdict.pcm
+11/09/2019  19:30           285.184 libFitPanel.dll
+11/09/2019  19:30               251 libFitPanel.rootmap
+11/09/2019  19:30               740 libFitPanel_rdict.pcm
+11/09/2019  19:26           121.344 libFoam.dll
+11/09/2019  19:25               277 libFoam.rootmap
+11/09/2019  19:25             5.784 libFoam_rdict.pcm
+11/09/2019  19:18            61.952 libforward_listDict.dll
+11/09/2019  19:17               710 libforward_listDict.rootmap
+11/09/2019  19:13           461.824 libFTGL.dll
+11/09/2019  19:27            92.160 libFumili.dll
+11/09/2019  19:27               169 libFumili.rootmap
+11/09/2019  19:27             4.745 libFumili_rdict.pcm
+11/09/2019  19:26           329.728 libGdml.dll
+11/09/2019  19:25               140 libGdml.rootmap
+11/09/2019  19:25             5.280 libGdml_rdict.pcm
+11/09/2019  19:31           742.912 libGed.dll
+11/09/2019  19:30             1.413 libGed.rootmap
+11/09/2019  19:30            33.273 libGed_rdict.pcm
+11/09/2019  19:23           360.448 libGenVector.dll
+11/09/2019  19:23            15.881 libGenVector.rootmap
+11/09/2019  19:23             5.078 libGenVector32.rootmap
+11/09/2019  19:23               804 libGenVector_G__GenVector32_rdict.pcm
+11/09/2019  19:23               744 libGenVector_rdict.pcm
+11/09/2019  19:24         1.423.872 libGeom.dll
+11/09/2019  19:23             4.035 libGeom.rootmap
+11/09/2019  19:31           591.360 libGeomBuilder.dll
+11/09/2019  19:31             1.437 libGeomBuilder.rootmap
+11/09/2019  19:31            25.523 libGeomBuilder_rdict.pcm
+11/09/2019  19:28           173.056 libGeomPainter.dll
+11/09/2019  19:28               212 libGeomPainter.rootmap
+11/09/2019  19:28             5.478 libGeomPainter_rdict.pcm
+11/09/2019  19:23            47.712 libGeom_rdict.pcm
+11/09/2019  19:03           223.744 libGLEW.dll
+11/09/2019  19:27           500.224 libGpad.dll
+11/09/2019  19:27               749 libGpad.rootmap
+11/09/2019  19:27               724 libGpad_rdict.pcm
+11/09/2019  19:27         1.330.688 libGraf.dll
+11/09/2019  19:25             1.415 libGraf.rootmap
+11/09/2019  19:28           536.064 libGraf3d.dll
+11/09/2019  19:27             1.199 libGraf3d.rootmap
+11/09/2019  19:27            14.442 libGraf3d_rdict.pcm
+11/09/2019  19:25               724 libGraf_rdict.pcm
+11/09/2019  19:30         2.226.176 libGui.dll
+11/09/2019  19:27             7.179 libGui.rootmap
+11/09/2019  19:30           335.872 libGuiBld.dll
+11/09/2019  19:30               416 libGuiBld.rootmap
+11/09/2019  19:30             7.274 libGuiBld_rdict.pcm
+11/09/2019  19:30           229.376 libGuiHtml.dll
+11/09/2019  19:30               124 libGuiHtml.rootmap
+11/09/2019  19:30             8.480 libGuiHtml_rdict.pcm
+11/09/2019  19:27               720 libGui_rdict.pcm
+11/09/2019  19:34           141.312 libGviz3d.dll
+11/09/2019  19:34               294 libGviz3d.rootmap
+11/09/2019  19:34             7.713 libGviz3d_rdict.pcm
+11/09/2019  19:25         2.561.536 libHist.dll
+11/09/2019  19:24             6.848 libHist.rootmap
+11/09/2019  19:27           595.968 libHistPainter.dll
+11/09/2019  19:27               291 libHistPainter.rootmap
+11/09/2019  19:27               752 libHistPainter_rdict.pcm
+11/09/2019  19:24               724 libHist_rdict.pcm
+11/09/2019  19:27           442.368 libHtml.dll
+11/09/2019  19:27               668 libHtml.rootmap
+11/09/2019  19:27            13.757 libHtml_rdict.pcm
+11/09/2019  19:18            41.472 libImt.dll
+11/09/2019  19:18               273 libImt.rootmap
+11/09/2019  19:18            15.872 libJupyROOT.dll
+11/09/2019  19:18            60.928 liblistDict.dll
+11/09/2019  19:17               590 liblistDict.rootmap
+11/09/2019  18:33           151.552 liblzma.dll
+11/09/2019  19:18           113.664 libmap2Dict.dll
+11/09/2019  19:17             1.629 libmap2Dict.rootmap
+11/09/2019  19:18           152.576 libmapDict.dll
+11/09/2019  19:17             2.729 libmapDict.rootmap
+11/09/2019  19:23         2.586.624 libMathCore.dll
+11/09/2019  19:20            14.649 libMathCore.rootmap
+11/09/2019  19:20               740 libMathCore_rdict.pcm
+11/09/2019  19:23           970.240 libMatrix.dll
+11/09/2019  19:23             4.504 libMatrix.rootmap
+11/09/2019  19:23               732 libMatrix_rdict.pcm
+11/09/2019  19:27           332.288 libMinuit.dll
+11/09/2019  19:27               298 libMinuit.rootmap
+11/09/2019  19:26           466.432 libMinuit2.dll
+11/09/2019  19:25             2.388 libMinuit2.rootmap
+11/09/2019  19:25               736 libMinuit2_rdict.pcm
+11/09/2019  19:27               732 libMinuit_rdict.pcm
+11/09/2019  19:29           206.848 libMLP.dll
+11/09/2019  19:29               216 libMLP.rootmap
+11/09/2019  19:29             6.305 libMLP_rdict.pcm
+11/09/2019  19:18            92.672 libmultimap2Dict.dll
+11/09/2019  19:17             1.385 libmultimap2Dict.rootmap
+11/09/2019  19:18           116.736 libmultimapDict.dll
+11/09/2019  19:17             1.976 libmultimapDict.rootmap
+11/09/2019  19:18            74.240 libmultisetDict.dll
+11/09/2019  19:17               877 libmultisetDict.rootmap
+11/09/2019  19:21           464.384 libNet.dll
+11/09/2019  19:20             1.558 libNet.rootmap
+11/09/2019  19:20               720 libNet_rdict.pcm
+11/09/2019  19:24           220.160 libPhysics.dll
+11/09/2019  19:23               472 libPhysics.rootmap
+11/09/2019  19:23               736 libPhysics_rdict.pcm
+11/09/2019  19:27           411.136 libPostscript.dll
+11/09/2019  19:27               220 libPostscript.rootmap
+11/09/2019  19:27               748 libPostscript_rdict.pcm
+11/09/2019  19:24         1.061.888 libProof.dll
+11/09/2019  19:23             1.958 libProof.rootmap
+11/09/2019  19:29           171.008 libProofDraw.dll
+11/09/2019  19:29             1.201 libProofDraw.rootmap
+11/09/2019  19:29             5.211 libProofDraw_rdict.pcm
+11/09/2019  19:26           508.416 libProofPlayer.dll
+11/09/2019  19:26             1.124 libProofPlayer.rootmap
+11/09/2019  19:26            19.254 libProofPlayer_rdict.pcm
+11/09/2019  19:23            45.958 libProof_rdict.pcm
+11/09/2019  19:24           545.792 libPyROOT.dll
+11/09/2019  19:24             7.680 libPyROOT.pyd
+11/09/2019  19:23               513 libPyROOT.rootmap
+11/09/2019  19:23               732 libPyROOT_rdict.pcm
+11/09/2019  19:24           212.480 libQuadp.dll
+11/09/2019  19:23               670 libQuadp.rootmap
+11/09/2019  19:23             9.899 libQuadp_rdict.pcm
+11/09/2019  19:23            91.136 libRCsg.dll
+11/09/2019  19:23               175 libRCsg.rootmap
+11/09/2019  19:23             1.443 libRCsg_rdict.pcm
+11/09/2019  19:30           162.816 libRecorder.dll
+11/09/2019  19:30               324 libRecorder.rootmap
+11/09/2019  19:30             8.757 libRecorder_rdict.pcm
+11/09/2019  19:33         1.617.920 libRGL.dll
+11/09/2019  19:31             4.268 libRGL.rootmap
+11/09/2019  19:31               720 libRGL_rdict.pcm
+11/09/2019  19:21           355.840 libRHTTP.dll
+11/09/2019  19:20               398 libRHTTP.rootmap
+11/09/2019  19:27            60.416 libRHTTPSniff.dll
+11/09/2019  19:27               102 libRHTTPSniff.rootmap
+11/09/2019  19:27             2.273 libRHTTPSniff_rdict.pcm
+11/09/2019  19:20             8.025 libRHTTP_rdict.pcm
+11/09/2019  19:18           148.480 libRint.dll
+11/09/2019  19:18               107 libRint.rootmap
+11/09/2019  19:20         2.289.664 libRIO.dll
+11/09/2019  19:18             1.788 libRIO.rootmap
+11/09/2019  19:36         1.690.624 libRooFit.dll
+11/09/2019  19:34             9.290 libRooFit.rootmap
+11/09/2019  19:34         3.904.512 libRooFitCore.dll
+11/09/2019  19:27            14.087 libRooFitCore.rootmap
+11/09/2019  19:27               748 libRooFitCore_rdict.pcm
+11/09/2019  19:34               732 libRooFit_rdict.pcm
+11/09/2019  19:38         1.138.688 libRooStats.dll
+11/09/2019  19:36             4.721 libRooStats.rootmap
+11/09/2019  19:36               740 libRooStats_rdict.pcm
+11/09/2019  19:21           156.672 libRootAuth.dll
+11/09/2019  19:21               217 libRootAuth.rootmap
+11/09/2019  19:21             4.998 libRootAuth_rdict.pcm
+11/09/2019  19:30         1.189.888 libROOTDataFrame.dll
+11/09/2019  19:29             4.151 libROOTDataFrame.rootmap
+11/09/2019  19:29               760 libROOTDataFrame_rdict.pcm
+11/09/2019  19:21           122.368 libROOTVecOps.dll
+11/09/2019  19:20             2.460 libROOTVecOps.rootmap
+11/09/2019  19:20               748 libROOTVecOps_rdict.pcm
+11/09/2019  19:21           705.536 libRSQLite.dll
+11/09/2019  19:21               228 libRSQLite.rootmap
+11/09/2019  19:21             2.652 libRSQLite_rdict.pcm
+11/09/2019  19:30           401.920 libSessionViewer.dll
+11/09/2019  19:30               694 libSessionViewer.rootmap
+11/09/2019  19:30            18.052 libSessionViewer_rdict.pcm
+11/09/2019  19:18            74.240 libsetDict.dll
+11/09/2019  19:17               802 libsetDict.rootmap
+11/09/2019  19:23           227.328 libSmatrix.dll
+11/09/2019  19:23            13.368 libSmatrix.rootmap
+11/09/2019  19:23             1.841 libSmatrix32.rootmap
+11/09/2019  19:23               788 libSmatrix_G__Smatrix32_rdict.pcm
+11/09/2019  19:23               736 libSmatrix_rdict.pcm
+11/09/2019  19:26           548.352 libSpectrum.dll
+11/09/2019  19:26               364 libSpectrum.rootmap
+11/09/2019  19:27           192.000 libSpectrumPainter.dll
+11/09/2019  19:27               109 libSpectrumPainter.rootmap
+11/09/2019  19:27               768 libSpectrumPainter_rdict.pcm
+11/09/2019  19:26               740 libSpectrum_rdict.pcm
+11/09/2019  19:29            62.464 libSPlot.dll
+11/09/2019  19:29                77 libSPlot.rootmap
+11/09/2019  19:29             3.165 libSPlot_rdict.pcm
+11/09/2019  19:21           289.792 libSQLIO.dll
+11/09/2019  19:21               410 libSQLIO.rootmap
+11/09/2019  19:21             9.781 libSQLIO_rdict.pcm
+11/09/2019  19:18           248.320 libThread.dll
+11/09/2019  19:18               686 libThread.rootmap
+11/09/2019  19:22           949.760 libTree.dll
+11/09/2019  19:21             2.128 libTree.rootmap
+11/09/2019  19:29         1.022.464 libTreePlayer.dll
+11/09/2019  19:28            10.692 libTreePlayer.rootmap
+11/09/2019  19:28               748 libTreePlayer_rdict.pcm
+11/09/2019  19:31           432.128 libTreeViewer.dll
+11/09/2019  19:31               659 libTreeViewer.rootmap
+11/09/2019  19:31               748 libTreeViewer_rdict.pcm
+11/09/2019  19:21               724 libTree_rdict.pcm
+11/09/2019  19:18           317.952 libunordered_mapDict.dll
+11/09/2019  19:17             5.316 libunordered_mapDict.rootmap
+11/09/2019  19:18           261.632 libunordered_multimapDict.dll
+11/09/2019  19:17             4.440 libunordered_multimapDict.rootmap
+11/09/2019  19:18           104.448 libunordered_multisetDict.dll
+11/09/2019  19:17             1.282 libunordered_multisetDict.rootmap
+11/09/2019  19:18           103.936 libunordered_setDict.dll
+11/09/2019  19:17             1.207 libunordered_setDict.rootmap
+11/09/2019  19:26           782.336 libUnuran.dll
+11/09/2019  19:26               382 libUnuran.rootmap
+11/09/2019  19:26             4.596 libUnuran_rdict.pcm
+11/09/2019  19:18            97.280 libvectorDict.dll
+11/09/2019  19:17             1.065 libvectorDict.rootmap
+11/09/2019  19:29           160.256 libVMC.dll
+11/09/2019  19:28               774 libVMC.rootmap
+11/09/2019  19:28             7.138 libVMC_rdict.pcm
+11/09/2019  19:27           337.408 libWin32gdk.dll
+11/09/2019  19:27               126 libWin32gdk.rootmap
+11/09/2019  19:27               740 libWin32gdk_rdict.pcm
+11/09/2019  19:21           261.120 libXMLIO.dll
+11/09/2019  19:20               268 libXMLIO.rootmap
+11/09/2019  19:20             5.331 libXMLIO_rdict.pcm
+11/09/2019  18:31             8.454 memprobe
+08/05/2019  08:13           447.024 msvcp140.dll
+11/09/2019  18:31             3.140 proofserv
+11/09/2019  19:23            14.336 proofserv.exe
+11/09/2019  19:06            35.328 rmkdepend.exe
+11/09/2019  18:31            27.689 root-config
+11/09/2019  19:18            11.264 root.exe
+11/09/2019  14:36            33.651 ROOT.py
+11/09/2019  19:40            31.296 ROOT.pyc
+11/09/2019  19:40            31.296 ROOT.pyo
+11/09/2019  18:31               856 rootbrowse.py
+11/09/2019  19:20             9.728 rootcint.exe
+11/09/2019  19:20             9.728 rootcling.exe
+11/09/2019  18:31             2.158 rootcp.py
+11/09/2019  18:31             2.678 rootdrawtree.py
+11/09/2019  18:31             3.419 rooteventselector.py
+11/09/2019  18:31             2.074 rootls.py
+11/09/2019  18:31             1.362 rootmkdir.py
+11/09/2019  18:31             1.971 rootmv.py
+11/09/2019  19:18            38.912 rootnb.exe
+11/09/2019  18:31             2.711 rootprint.py
+11/09/2019  18:31             1.433 rootrm.py
+11/09/2019  18:31               821 roots
+11/09/2019  18:31             2.431 rootslimtree.py
+11/09/2019  18:31             3.834 setxrd.csh
+11/09/2019  18:31             3.046 setxrd.sh
+11/09/2019  18:36           166.400 tbb.dll
+11/09/2019  18:36         2.412.544 tbb.pdb
+11/09/2019  18:36            65.536 tbbmalloc.dll
+11/09/2019  18:36         1.003.520 tbbmalloc.pdb
+11/09/2019  18:36            29.696 tbbmalloc_proxy.dll
+11/09/2019  18:36           618.496 tbbmalloc_proxy.pdb
+11/09/2019  18:31               425 thisroot.bat
+11/09/2019  18:31             6.900 thisroot.csh
+11/09/2019  18:31             1.670 thisroot.fish
+11/09/2019  18:31             4.624 thisroot.sh
+08/05/2019  08:13            79.920 vcruntime140.dll
+11/09/2019  14:36            12.056 _pythonization.py
+11/09/2019  19:40            18.190 _pythonization.pyc
+11/09/2019  19:40            18.190 _pythonization.pyo
+             291 File     92.973.072 byte
+               4 Directory  153.580.072.960 byte disponibili
+
+C:\Users\dmg\C++\repos\labroot1>\root_v6.18.04\bin\root.exe
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.18/04                  https://root.cern |
+  |                               (c) 1995-2019, The ROOT Team |
+  | Built for win32 on Sep 11 2019, 15:38:23                   |
+  | From tags/v6-18-04@v6-18-04                                |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+root [0] .L ParticleType.cpp+
+Info in <TWinNTSystem::ACLiC>: creating shared library C:/Users/dmg/C++/repos/labroot1/ParticleType_cpp.dll
+ParticleType_cpp_ACLiC_dict.cxx
+   Creazione della libreria C:/Users/dmg/C++/repos/labroot1\ParticleType_cpp.lib e dell'oggetto C:/Users/dmg/C++/repos/labroot1\ParticleType_cpp.exp
+C:\WINDOWS\System32\KERNEL32.DLL : fatal error LNK1107: file danneggiato o non valido: impossibile leggere in 0x2E0
+Error in <ACLiC>: Compilation failed!
+root [1] .L ParticleType.cpp
+root [2] .L Particle.cpp
+In file included from input_line_9:1:
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:14:9: error: use of undeclared identifier 'setParticleType'
+        setParticleType(fName);
+        ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:65:83: error: expected expression
+    fMomentum = std::sqrt(std::pow(fPx, 2) + std::pow(fPy, 2) + std::pow(fPz, 2) +);
+                                                                                  ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:91:5: error: use of undeclared identifier 'fPhi'
+    fPhi = phi;
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:92:5: error: use of undeclared identifier 'fTheta'
+    fTheta = theta;
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:93:5: error: use of undeclared identifier 'fMomentum'
+    fMomentum = momentum;
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:94:5: error: use of undeclared identifier 'fPx'
+    fPx = momentum * sin(theta) * cos(phi);
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:95:5: error: use of undeclared identifier 'fPy'
+    fPy = momentum * sin(theta) * sin(phi);
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:96:5: error: use of undeclared identifier 'fPz'
+    fPz = momentum * cos(theta);
+    ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:221:10: error: no member named 'setP' in 'Particle'
+    dau1.setP(pout*sin(theta)*cos(phi),pout*sin(theta)*sin(phi),pout*cos(theta));
+    ~~~~ ^
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:222:10: error: no member named 'setP' in 'Particle'
+    dau2.setP(-pout*sin(theta)*cos(phi),-pout*sin(theta)*sin(phi),-pout*cos(theta));
+    ~~~~ ^
+root [3] .L Particle.cpp
+In file included from input_line_10:1:
+C:\Users\dmg\C++\repos\labroot1\Particle.cpp:65:83: error: expected expression
+    fMomentum = std::sqrt(std::pow(fPx, 2) + std::pow(fPy, 2) + std::pow(fPz, 2) +);
+                                                                                  ^
+root [4] .L Particle.cpp
+IncrementalExecutor::executeFunction: symbol '?log@@YAMM@Z' unresolved while linking function '??__Eid@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A@YAXXZcling_module_12_'!
+You are probably missing the definition of float __cdecl log(float)
+Maybe you need to load the corresponding shared library?
+IncrementalExecutor::executeFunction: symbol '??0ResonanceType@@QAE@PADNHN@Z' unresolved while linking function '??__Eid@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A@YAXXZcling_module_12_'!
+You are probably missing the definition of public: __thiscall ResonanceType::ResonanceType(char *,double,int,double)
+Maybe you need to load the corresponding shared library?
+IncrementalExecutor::executeFunction: symbol '?pow@@YANNH@Z' unresolved while linking function '??__Eid@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A@YAXXZcling_module_12_'!
+You are probably missing the definition of double __cdecl pow(double,int)
+Maybe you need to load the corresponding shared library?
+root [5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
