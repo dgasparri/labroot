@@ -131,16 +131,17 @@ int labroot() {
                     std::cout<<"p2 index: "<<numParticlePerEvent + numDecayedParticles + 1<<std::endl;
                     Particle &p1 = particleArray[ numParticlePerEvent + numDecayedParticles];
                     Particle &p2 = particleArray[ numParticlePerEvent + numDecayedParticles + 1];
+                    if(rng->Uniform(0, 1)<0.5) {
+                        p1.setType("pionp");
+                        p2.setType("kaonn");
+                    } else {
+                        p1.setType("pionn");
+                        p2.setType("kaonp");
+                    }
+
                     if (0 == particleArray[numParticleInArray].decay2Body(p1, p2)) 
                     {
                         std::cout<<"Decayed #: "<<numParticleInArray<<std::endl;
-                        if(rng->Uniform(0, 1)<0.5) {
-                            p1.setType("pionp");
-                            p2.setType("kaonn");
-                        } else {
-                            p1.setType("pionn");
-                            p2.setType("kaonp");
-                        }
                         numDecayedParticles+=2;                        
                     }
                 } else {

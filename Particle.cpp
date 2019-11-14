@@ -12,6 +12,7 @@ ParticleType* Particle::fParticleTypes[10];
 Particle::Particle(const char* fName, double fPx, double fPy, double fPz):
     fPx(fPx), fPy(fPy), fPz(fPz) {
         setType(fName);
+        
     }
 
 Particle::Particle() {
@@ -66,7 +67,10 @@ double Particle::getPz() const {
 }
 
 double Particle::getMass() const {
-    return fParticleTypes[fIParticle]->getMass();
+    if(fIParticle != -1) 
+        return fParticleTypes[fIParticle]->getMass();
+    else
+        return 0;
 }
 
 void Particle::setCartesian(double px, double py, double pz) {
@@ -187,19 +191,17 @@ int Particle::FindParticle(const char *pName) {
 
 int Particle::decay2Body(Particle &dau1,Particle &dau2) const {
     double massMot = getMass();
-    std::cout<<"Mass: "<<massMot<<std::endl;
+    // std::cout<<"Mass: "<<massMot<<std::endl;
 
     if(massMot == 0.0){
         printf("Decayment cannot be preformed if mass is zero\n");
         return 1;
     }
 
-
     double massDau1 = dau1.getMass();
     double massDau2 = dau2.getMass();
-    std::cout<<"Masses: "<<massDau1<<", "<<massDau2<<std::endl;
-    std::cout<<"Particle fIparticle: "<<fIParticle<<std::endl;
-    return 1;
+    //std::cout<<"Masses: "<<massDau1<<", "<<massDau2<<std::endl;
+    //std::cout<<"Particle fIparticle: "<<fIParticle<<std::endl;
     if(-1 < fIParticle){ // add width effect
 
         // gaussian random numbers

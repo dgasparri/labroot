@@ -31,7 +31,7 @@ private:
     static const int fMaxNumParticleTypes; // = 10;
     static int fNumParticleTypes;
     static ParticleType *fParticleTypes[10];
-    int fIParticle; //-1 if not set
+    int fIParticle = -1; //-1 if not set
     double fPhi, fTheta, fMomentum;
     double fPx, fPy, fPz;
     //char* fName; 
