@@ -4,3 +4,12 @@ gSystem->cd("/Users/dmg/C++/repos/labroot1");
 .L ResonanceType.cpp
 .L Particle.cpp
 .L labroot.cpp
+
+
+std::cout<<gSystem->pwd();
+gSystem->cd("/home/duccio/labroot");
+.L ParticleType.cpp
+.L ResonanceType.cpp
+.L Particle.cpp
+.L labroot.cpp
+
